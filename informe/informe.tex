@@ -153,6 +153,6 @@ LLM: Qwen few-shot 12 (3 sel.)        & 0,530 $\pm$ 0,018 & [0,49; 0,58] & 0,600
 
 \textbf{Limitaciones.} El test es chico (IC de $\approx\pm$0,05). Evaluamos un solo LLM, y además chico (un modelo de 7B probablemente aprovecharía mejor la propuesta y los ejemplos). Excluimos los comentarios sin mayoría, y \emph{neutral} sigue siendo la clase más difícil para todos los enfoques.
 
-\textbf{Reflexión grupal.} Nos llevamos que no existe un modelo que sea siempre la mejor opción: la elección depende de los datos, del volumen y de los recursos disponibles. Más complejidad no garantizó mejores resultados en forma proporcional, y aprendimos a desconfiar de las mejoras pequeñas en validación (que se desinflaron en test) y a mirar el costo y el tipo de error de cada modelo, no solo una métrica. También nos sorprendió que un LLM chico, sin entrenarlo, pudiera competir con un modelo ajustado, siempre que se corrigiera su sesgo.
+\textbf{Reflexión grupal.} Este trabajo nos permitió entender que no existe un modelo que sea siempre la mejor opción, sino que la elección depende del problema, los datos disponibles y los recursos con los que se cuenta. También vimos que un mayor nivel de complejidad no garantiza mejores resultados y que decisiones como el balanceo de clases o la calibración pueden tener tanto impacto como la elección del modelo. Nos llevamos la importancia de evaluar no solo el desempeño, sino también los costos y las limitaciones de cada enfoque para elegir una solución que sea realmente viable.
 
 \end{document}
